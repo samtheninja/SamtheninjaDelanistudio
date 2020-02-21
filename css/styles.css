@@ -2,7 +2,18 @@
   background-image: url("../img/backgrounds/h_img.jpg");
   height: 100vh;
 }
-.col1  {
+.coll2  {
   background-image: url("../img/backgrounds/s_image.jpg");
   height: 100vh;
+  background-repeat: no-repeat;
+  text-align: center;
+  color: white;
+}
+.coll1  {
+  /* background-image: url("../img/backgrounds/s_image.jpg"); */
+  /* height: 100vh; */
+  /* background-repeat: no-repeat; */
+  text-align: center;
+  color:black;
+  background-color: white;
 }
