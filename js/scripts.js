@@ -82,11 +82,19 @@ $().ready(function () {
 });
 function mySubmit() {
   var name = document.getElementById("name").value
-  var nnn = document.getElementById("name").value
-  var em = document.getElementById("email").value
-  var feed = document.getElementById("feedback").value
-
-  alert("feedback recieved");
-
-
+  var email = document.getElementById("email").value
+  var feedback= document.getElementById("feedback").value
+//  confirm(name + "  " +email)
+//  if (confirm===true)  {
+  // alert(name +   "   your feedback has been recieved");
+// }
+// else {
+//   alert("Please input your name and email again")
+// }
+if (name==="" || email==="" || feedback==="")  {
+  alert ("Enter your name, email, and feedback please")
+}
+else  {
+  alert(name +   "   your feedback has been recieved");
+}
 }
