@@ -13,10 +13,13 @@ $().ready(function(){
   });
 });
 
-$().ready(function()  {
-  $("#m").mouseenter(function(){
-   $(".overlay").show();
-   }).mouseleave(function(){
-     $(".overlay").hide();
+$(document).ready(function()  {
+  $(".i1").mouseenter(function(){
+   $(".i1").toggle();
+   $(".a").toggle();
+  });
+  $(".i1").mouseleave(function(){
+    $(".i1").toggle();
+    $(".a").toggle();
    });
 });
