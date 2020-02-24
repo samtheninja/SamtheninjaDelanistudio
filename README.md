@@ -18,7 +18,7 @@
 * none, feel free to use this code however you choose.
 Copyright (c) {year} **{samtheninja.inc}**
 ### link
-* [https://samtheninja.github.io/SamtheninjaDelanistudio/] link 
+* [https://samtheninja.github.io/SamtheninjaDelanistudio/.] link 
 ## Specifications
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
