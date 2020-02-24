@@ -18,9 +18,9 @@
 * none, feel free to use this code however you choose.
 Copyright (c) {year} **{samtheninja.inc}**
 ### link
-* [https://samtheninja.github.io/Akan-madness/] link
+* [https://samtheninja.github.io/SamtheninjaDelanistudio/] link
 ## Specifications
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| its a website that presents portfolio data for studio delani | century , year , month, day and gender  ONCLICK **GENERATE** |Display Akan-Name|
+| its a website that presents portfolio data for studio delani | user inputs name,email,and feed back...they also highlight some fields with some input |user gets notification of sumbitted feedback and is able to view some extra info through toggle functions|
 
