@@ -180,12 +180,12 @@
     <h2>CONTACT US</h2>
     <div class="row">
       <div class="col-md-12">
-        <form class="input">
-          <input type="text" id="name" name="name" placeholder="Name">
+        <form method="post" onsubmit="event.preventDefault()";>
+          <input type="text" id="name" name="name" placeholder="Name" required>
 
-          <input type="text" id="email" name="email" placeholder="Email"><br>
+          <input type="text" id="email" name="email" placeholder="Email" required><br>
           <div class="spacer1"></div>
-          <input type="text" id="feedback" name="feedback" placeholder="Your message here_"><br>
+          <input type="text" id="feedback" name="feedback" placeholder="Your message here_" required><br>
           <div></div>
           <button id="butt" name="SUBMIT">SUBMIT</button>
         </form>
